@@ -1,0 +1,22 @@
+{
+  "name": "protest1",
+  "version": "1.0.0",
+  "description": "E2E test using protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdclydesdale/protest1.git"
+  },
+  "author": "Clyde Dsouza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdclydesdale/protest1/issues"
+  },
+  "homepage": "https://github.com/cdclydesdale/protest1#readme",
+  "dependencies": {
+    "protractor": "^5.3.0"
+  }
+}
