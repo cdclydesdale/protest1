@@ -4,7 +4,8 @@
   "description": "E2E test using protractor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/protractor/bin/protractor config.js --suite register"
   },
   "repository": {
     "type": "git",
