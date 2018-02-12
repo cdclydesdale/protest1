@@ -19,10 +19,10 @@ beforeEach(function(){
      pageReg.passRepeat.sendKeys('password');
  });
 
- it('should check if Register Button is present',function(){
-   helper.waitElementToBeVisisble(pageReg.regButton);
-   expect(pageReg.regButton.getText()).toBe('Register');
- });
+ // it('should check if Register Button is present',function(){
+ //   //helper.waitElementToBeVisisble(pageReg.regButton);
+ //   pageReg.regButton.click();
+ // });
 
  afterEach(function(){
    browser.manage().deleteAllCookies();
