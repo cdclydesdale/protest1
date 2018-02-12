@@ -13,10 +13,7 @@ beforeEach(function(){
      helper.waitElementToBeVisisble(pageReg.register);
      pageReg.register.click();
      helper.waitElementToBeVisisble(pageReg.firstName);
-     pageReg.firstName.sendKeys('First');
-     pageReg.email.sendKeys('test@email.com');
-     pageReg.password.sendKeys('password');
-     pageReg.passRepeat.sendKeys('password');
+     pageReg.userRegister();
  });
 
  // it('should check if Register Button is present',function(){
