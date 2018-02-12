@@ -13,5 +13,8 @@ it('should load the home page successfully',function(){
   expect(browser.getTitle()).toBe(homePage.title);
 });
 
+afterEach(function(){
+  browser.manage().deleteAllCookies();
+})
 
 });
